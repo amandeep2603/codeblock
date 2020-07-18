@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Lobster">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+.w3-lobster {
+  font-family: "Lobster", serif;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+</style>
+<body>
+
+<nav class="navbar navbar-expand-md bg-danger navbar-dark fixed-top">
+ 
+  <a class="navbar-brand w3-lobster w3-xxlarge" href="#">CodeBlock</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="outline:none;">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="homepage.html">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SEARCH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ourworks.html">OUR WORKS</a>
+      </li>
+          <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">ABOUT US</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br/>
+<br/><br/>
+<br/><br/>
+<br/>
+
+<h1 class="w3-text-orange w3-animate-bottom">Our Works</h1>
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="honeycomb.JPG" alt="honeycombLogin" width="600" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="pic.JPG" alt="honeycomb" width="600" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="codelover-1.jpg" alt="Codelover" width="600" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+</body>
+</html>
